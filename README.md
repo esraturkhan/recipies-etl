@@ -6,7 +6,7 @@ This project is designed to extract, process, and analyze recipes from a JSON fi
 1)Download or clone the project 
 2)Navigate to the project directory (e.g., cd recipes-etl).
 3)Install the required packages: pip install -r requirements.txt.
-4)Run the Python script: python HELLOFRESH_CASESTUDY.ipynb.
+4)Run the Python script: python HELLOFRESH_CASESTUDY.py.
 
 ## What It Does and How It Does It
 Our script reads the specified JSON file and filters out recipes containing the word 'Chilies', taking into account various spellings and inflections of 'Chilies'. It then converts the 'prepTime' and 'cookTime' specified in the recipes into minutes and calculates a 'difficulty' rating for each recipe based on the total time. The results are saved in a CSV file.
