@@ -4,8 +4,11 @@ This project is designed to extract, process, and analyze recipes from a JSON fi
 
 ## How to Run
 1)Download or clone the project 
+
 2)Navigate to the project directory (e.g., cd recipes-etl).
+
 3)Install the required packages: pip install -r requirements.txt.
+
 4)Run the Python script: python HELLOFRESH_CASESTUDY.py.
 
 ## What It Does and How It Does It
